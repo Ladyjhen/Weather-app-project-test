@@ -5,7 +5,7 @@
   "homepage": "https://ladyjhen.github.io/Weather-app-project-test/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Weather-app-project-test/"
   },
   "repository": {
     "type": "git",
