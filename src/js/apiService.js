@@ -67,7 +67,7 @@ async function getLocationByIP() {
 async function fetchWeatherByCoords(lat, lon) {
   const output = document.querySelector('.output');
   const response = await axios.get(
-    `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&lang=en&appid=daa3c03c1253f276d26e4e127c34d058`,
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&lang=en&appid=31328a08c8eed36865b9c197e848a2e0`,
   );
 
 
@@ -87,7 +87,7 @@ async function fetchWeather(query) {
   let response
 
  try { response = await axios.get(
-    `https://api.openweathermap.org/data/2.5/forecast?q=${query}&units=metric&lang=en&appid=daa3c03c1253f276d26e4e127c34d058`,
+    `https://api.openweathermap.org/data/2.5/forecast?q=${query}&units=metric&lang=en&appid=31328a08c8eed36865b9c197e848a2e0`,
  );
    
     const weather =  response.data;
