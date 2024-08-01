@@ -3,7 +3,7 @@ import axios from 'axios';
 export default async function fetchImages(weather) {
   const body = document.querySelector('body');
   const response = await axios.get(
-    `https://pixabay.com/api/?key=25583037-a5404a14e1dce136772e20a61&q=${weather.city.name}&image_type=photo&orientation=horizontal&safesearch=true&per_page=10`,
+    `https://pixabay.com/api/?key=43695781-37520996cf2f13ffb5a7a3fb5&q=${weather.city.name}&image_type=photo&orientation=horizontal&safesearch=true&per_page=10`,
   );
   const images = await response.data;
   if (images.totalHits === 0) {

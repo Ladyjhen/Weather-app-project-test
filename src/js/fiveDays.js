@@ -50,7 +50,7 @@ function openFiveDays() {
 // запрос на сервер
 async function fetchWeatherForFiveDays() {
     try {
-        const APIKey = 'daa3c03c1253f276d26e4e127c34d058'
+        const APIKey = '31328a08c8eed36865b9c197e848a2e0`'
         const response = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latForFiveDays}&lon=${lonForFiveDays}&exclude=hourly,minutely&units=metric&appid=${APIKey}`)
         const weatherList = await response.json()
         
