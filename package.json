@@ -2,14 +2,14 @@
   "name": "weather-app-project-test",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ladyjhen.github.io/Weather-app-project-test/",
+  "homepage": "https://ladyjhen.github.io/weather-app-project-test/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Weather-app-project-test/"
+    "build": "parcel build src/*.html --public-url /weather-app-project-test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ladyjhen/Weather-app-project-test.git"
+    "url": "git+https://github.com/Ladyjhen/weather-app-project-test.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
