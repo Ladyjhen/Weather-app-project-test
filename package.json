@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Ladyjhen/Weather-app-project-test.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -18,13 +18,23 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.7.2",
+    "chart": "^0.1.2",
+    "chart.js": "^4.4.3",
+    "modern-normalize": "^1.1.0",
+    "moment-timezone": "^0.5.45",
+    "notiflix": "^3.2.7",
+    "siema": "^1.5.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.77.8"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
