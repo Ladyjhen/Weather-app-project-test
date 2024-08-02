@@ -11,13 +11,13 @@ chartBtnHide.addEventListener('click', onShowBox)
 showChart.addEventListener('click', onShowBox)
 hideChart.addEventListener('click', onHideBox)
 hidenBtn.addEventListener('click', onHideBox)
-//Функция показывает блок графика
+//The function shows the graph block
 function onShowBox (e){
    jsHiden.classList.add('hidden') &
     chartView.classList.remove('hidden')
   
 }
-//Функция убирает блок графика
+//The function removes the graph block
 function onHideBox (e){
     chartView.classList.add('hidden') &
     jsHiden.classList.remove('hidden') 
@@ -51,7 +51,7 @@ export default function runChart(data) {
 // })
 }
 
-//вызываю функцию запроса
+//call the query function
 // fetchWeather().then((response)=>{
 //  const sliceDaily = response.slice(0,5)
 //   const dataToChart = processedData(sliceDaily)
@@ -61,7 +61,7 @@ export default function runChart(data) {
 // })
 
 
-//обработчик данных для графика
+//data processor for graph
 const processedData = (obj)=>{
   const getDateTxt = data => new Date(data.dt * 1000).toDateString()
     const proData = {
